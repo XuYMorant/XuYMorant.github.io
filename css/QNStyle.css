@@ -11,13 +11,9 @@
 .header h1 {
     font-size: 40px;
 }
-/* 副标题字体加大 */
-.header p {
-    font-size: 20px;
-}
 
 /* 回到首页入口 */
-.surveyButton {
+.backHome {
     overflow: hidden;
     background-color: #333;
     margin-left: 45%;
@@ -25,7 +21,7 @@
     border-radius: 20px;
 }
 /* 回到首页入口的字体样式 */
-.surveyButton a {
+.backHome a {
     float: center;
     display: block;
     color: white;
@@ -35,49 +31,44 @@
     text-decoration: none;
 }
 /* 鼠标移动到回到首页入口的颜色 */
-.surveyButton a:hover {
+.backHome a:hover {
     background-color: skyblue;
     color: black;
 }
 
-/* 导航栏 */
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-}
-/* 导航栏样式 */
-.navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 8px 12px;
-    text-decoration: none;
-    font-weight: bold;
-}
-/* 鼠标移动到导航栏链接的颜色 */
-.navbar a:hover {
-    background-color: #ddd;
-    color: black;
-}
-/* 显示当前页面时高亮 */
-.navbar a.active {
-    color: skyblue;
-    font-weight: bold;
-}
-
-/* 段落 */
-.content {
+/* 设置问卷开头部分 */
+.RPstyle {
     text-align: center;
 }
-/* 段落标题字体加大 */
-.content h1 {
-    font-size: 40px;
+/* 问卷头字体加大 */
+.RPstyle h1 {
+    font-size: 30px;
     color: navy;
 }
-/* 段落内容字体加大 */
-.content p {
-    font-size: 20px;
+
+/* 设置问题格式 */
+.QuesList {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+/* 设置每个问题的背景色 */
+.QuesList h1 {
+    background-color: Tomato;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+/* 设置问题列表的格式 */
+.QuesList p {
+    font-size: 30px;
+    font-weight: bolder;
+    color: darkred;
 }
 
 /* 底部栏样式 */
